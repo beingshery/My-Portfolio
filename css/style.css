@@ -442,3 +442,61 @@ header.sticky{
         height: auto;
     }
 }
+/* @media (max-height:480px){
+    header nav ul li {
+        display: inline-block !important ;
+        margin: -9% 0 0 0!important;
+        border-right:none !important;
+        }} */
+@media (max-width: 400px) {
+        :root{
+            --big-font: 3.9rem;
+            --h2-font: 3.1rem;
+            --p-font: 1rem;   
+            transition: .2s;
+        }
+        .home-text h3{
+            font-size: 22px;
+        }
+        .home-text h4{
+            font-size: 18px;
+        }
+        .newsletter form{
+            max-width: 100%;
+            width: 340px;
+            position: relative;
+        }
+        .home{
+            height: 100vh;
+        }
+        .h-btn{
+            font-size: 13px ;
+            letter-spacing: 0px;
+        }
+}
+@media (max-width: 320px) {
+        :root{
+            --big-font: 3.3rem;
+            --h2-font: 2.8rem;
+            --p-font: 1rem;   
+            transition: .2s;
+        }
+        .home-text h3{
+            font-size: 20px;
+        }
+        .home-text h4{
+            font-size: 16px;
+        }
+        .newsletter form{
+            max-width: 100%;
+            width: 290px;
+            position: relative;
+        }
+        .home{
+            height: 100vh;
+        }
+        .h-btn{
+            font-size: 08px ;
+            letter-spacing: 0px;
+        }
+}
