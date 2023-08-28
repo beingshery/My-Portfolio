@@ -96,7 +96,7 @@ section{
 .home{
     height: 100vh;
     width: 100%;
-    background: url(/assets/hero-background.jpg);
+    background: url(../assets/hero-background.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
