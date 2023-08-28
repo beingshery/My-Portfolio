@@ -298,7 +298,6 @@ header.sticky{
     width: 700px;
     height: auto;
     border-radius: 10px;
-    transform: scaleX(-1);
 }
 .contact-form h2{
     font-size: var(--h2-font);

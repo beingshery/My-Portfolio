@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaheryar Ahmed - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.jpg">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -29,7 +30,7 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact Us</a></li>
         </ul>
-        <a href="#" class="h-btn">Let's Talk</a>
+        <a href="https://www.linkedin.com/in/shaheryar-ahmed-/" class="h-btn">Let's Talk</a>
     </header>
    
     <!-- Home Section -->
@@ -39,8 +40,11 @@
             <h1>Shaheryar <span>Ahmed</span></h1>
             <h3>I'm a Front-End Developer</h3>
             <div class="newsletter">
-                <form>
-                    <input type="email" name="email" id="mail" placeholder="Enter Your Email"> 
+                <form action="https://formsubmit.co/shaheryar903@gmail.com" method="POST">
+                    <input type="email" name="Email" id="mail" placeholder="Enter Your Email"> 
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://shaheryar-ahmed.github.io/my-portfolio/">
                     <input type="submit" name="submit" id="" value="Let's Start">
                 </form>
             </div>
@@ -56,7 +60,7 @@
             <h2>About Us</h2>
             <h5>Developer <span>& Designer</span></h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae voluptatum delectus nobis! Ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sit ratione soluta laboriosam libero earum quia possimus nobis suscipit fugit aliquam, voluptatem tempora, hic quas sequi reiciendis rerum, perferendis inventore.</p>
-            <a href="#" class="btn">Download CV</a>
+            <a href="./assets/SHAHERYAR AHMED RESUME.pdf" class="btn">Download CV</a>
         </div>
     </section>
    
@@ -146,21 +150,24 @@
             <h2>Hire Me</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem incidunt in harum nam, qui iusto.</p>
             <div class="socials">
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-facebook'></i></a>                
+                <a href="https://www.linkedin.com/in/shaheryar-ahmed-/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/shaheryar-ahmed"><i class='bx bxl-github'></i></a>
+                <a href="https://instagram.com/beingshery"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/beingshery"><i class='bx bxl-facebook'></i></a>                
             </div>
-            <form action="">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" name="" id="" placeholder="Your Email" required>
-                <input type="text" placeholder="Write a subject" required>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="submit" name="" value="submit" class="send" >
+            <form action="https://formsubmit.co/shaheryar903@gmail.com" method="POST">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" id="" placeholder="Your Email" required>
+                <input type="text" name="Subject" placeholder="Write a subject" required>
+                <textarea id="" cols="30" rows="10" name="Message" placeholder="Your Message"></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://shaheryar-ahmed.github.io/my-portfolio/">
+                <input type="submit" value="submit" class="send" >
             </form>
         </div>
         <div class="contact-img">
-            <img src="./assets/about-image.jpg">
+            <img src="./assets/contact-image.jpg">
         </div>
     </section>
 
